@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\SOF2041\BaiLab\SOF2041_Edusys\EDUSYS\Edusys-1.0-SNAPSHOT.jar</jar>
+  <outfile>D:\SOF2041\BaiLab\SOF2041_Edusys\EDUSYS\Edusys.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\SOF2041\BaiLab\EDUSYS\fpt.ico</icon>
+  <classPath>
+    <mainClass>com.edusys.ui.EdusysJF</mainClass>
+    <cp>libs/mssql-jdbc-12.4.1.jre11.jar</cp>
+  </classPath>
+  <jre>
+    <path>mssql-jdbc-12.4.1</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0</txtFileVersion>
+    <fileDescription>Edusys</fileDescription>
+    <copyright>PD08260</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0</txtProductVersion>
+    <productName>Edusys</productName>
+    <companyName>KA</companyName>
+    <internalName>VietNam</internalName>
+    <originalFilename>Edusys.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

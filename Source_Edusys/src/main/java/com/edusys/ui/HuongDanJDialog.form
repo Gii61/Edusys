@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="324" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="257" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="360" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x110;&#x1ec3; s&#x1eed; d&#x1ee5;ng ph&#x1ea7;n m&#x1ec1;m h&#x1ec7; th&#x1ed1;ng gi&#xe1;o d&#x1ee5;c Eudsys, b&#x1ea1;n c&#xf3; th&#x1ec3; l&#xe0;m theo c&#xe1;c b&#x1b0;&#x1edb;c sau:&#xa;&#xa;1.&#x110;&#x103;ng nh&#x1ead;p v&#xe0;o h&#x1ec7; th&#x1ed1;ng: Truy c&#x1ead;p v&#xe0;o trang web c&#x1ee7;a Eudsys v&#xe0; s&#x1eed; d&#x1ee5;ng th&#xf4;ng tin &#x111;&#x103;ng nh&#x1ead;p c&#x1ee7;a b&#x1ea1;n     &#x111;&#x1ec3; &#x111;&#x103;ng nh&#x1ead;p v&#xe0;o h&#x1ec7; th&#x1ed1;ng.&#xa;2.Giao di&#x1ec7;n ch&#xed;nh: Sau khi &#x111;&#x103;ng nh&#x1ead;p th&#xe0;nh c&#xf4;ng, b&#x1ea1;n s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c chuy&#x1ec3;n &#x111;&#x1ebf;n giao di&#x1ec7;n ch&#xed;nh c&#x1ee7;a Eudsys. &#xa;   T&#x1ea1;i &#x111;&#xe2;y, b&#x1ea1;n s&#x1ebd; t&#xec;m th&#x1ea5;y c&#xe1;c ch&#x1ee9;c n&#x103;ng v&#xe0; t&#xed;nh n&#x103;ng kh&#xe1;c nhau.&#xa;3.Qu&#x1ea3;n l&#xfd; h&#x1ed3; s&#x1a1; nh&#xe2;n vi&#xea;n v&#xe0; h&#x1ecd;c vi&#xea;n: Eudsys cho ph&#xe9;p b&#x1ea1;n qu&#x1ea3;n l&#xfd; h&#x1ed3; s&#x1a1; nh&#xe2;n vi&#xea;n v&#xe0; h&#x1ecd;c vi&#xea;n. B&#x1ea1;n c&#xf3; &#xa;   th&#x1ec3; t&#x1ea1;o, ch&#x1ec9;nh s&#x1eed;a, xem v&#xe0; x&#xf3;a h&#x1ed3; s&#x1a1; n&#xe0;y theo nhu c&#x1ea7;u. &#xa;4.Qu&#x1ea3;n l&#xfd; kh&#xf3;a h&#x1ecd;c: B&#x1ea1;n c&#xf3; th&#x1ec3; t&#x1ea1;o v&#xe0; qu&#x1ea3;n l&#xfd; kh&#xf3;a h&#x1ecd;c trong h&#x1ec7; th&#x1ed1;ng Eudsys. C&#xf3; th&#x1ec3; x&#xf3;a kh&#xf3;a h&#x1ecd;c v&#x1edb;i &#xa;  vai tr&#xf2; l&#xe0; tr&#x1b0;&#x1edf;ng ph&#xf2;ng&#xa;5.L&#x1ead;p k&#x1ebf; ho&#x1ea1;ch gi&#x1ea3;ng d&#x1ea1;y v&#xe0; qu&#x1ea3;n l&#xfd; chuy&#xea;n &#x111;&#x1ec1;: Eudsys cung c&#x1ea5;p t&#xed;nh n&#x103;ng qu&#x1ea3;n l&#xfd; c&#xe1;c chuy&#xea;n &#x111;&#x1ec1;.&#xa;6.B&#xe1;o c&#xe1;o v&#xe0; th&#x1ed1;ng k&#xea;: Eudsys cho ph&#xe9;p b&#x1ea1;n theo d&#xf5;i th&#x1ed1;ng k&#xea; v&#x1ec1; b&#x1ea3;ng &#x111;i&#x1ec3;m,ng&#x1b0;&#x1edd;i h&#x1ecd;c, &#x111;i&#x1ec3;m t&#x1eeb;ng chuy&#xea;n &#x111;&#x1ec1; v&#xe0; doanh thu. B&#x1ea1;n c&#xf3; th&#x1ec3; xem b&#xe1;o c&#xe1;o v&#xe0; th&#x1ed1;ng k&#xea; v&#x1ec1; ti&#x1ebf;n &#x111;&#x1ed9; h&#x1ecd;c t&#x1ead;p v&#xe0; th&#xe0;nh t&#xed;ch c&#x1ee7;a h&#x1ecd;c sinh, v&#xe0;         s&#x1ef1; ph&#xe1;t tri&#x1ec3;n c&#x1ee7;a trung t&#xe2;m theo n&#x103;m&#xa;7.H&#x1ed7; tr&#x1ee3; v&#xe0; t&#x1b0; v&#x1ea5;n: N&#x1ebf;u b&#x1ea1;n g&#x1eb7;p v&#x1ea5;n &#x111;&#x1ec1; ho&#x1eb7;c c&#x1ea7;n h&#x1ed7; tr&#x1ee3; trong vi&#x1ec7;c s&#x1eed; d&#x1ee5;ng Eudsys, b&#x1ea1;n c&#xf3; th&#x1ec3; t&#xec;m ki&#x1ebf;m tr&#x1ee3;   gi&#xfa;p th&#xf4;ng qua t&#xe0;i li&#x1ec7;u h&#x1b0;&#x1edb;ng d&#x1eab;n ho&#x1eb7;c li&#xea;n h&#x1ec7; v&#x1edb;i &#x111;&#x1ed9;i ng&#x169; h&#x1ed7; tr&#x1ee3; c&#x1ee7;a Eudsys &#x111;&#x1ec3; &#x111;&#x1b0;&#x1ee3;c gi&#xfa;p &#x111;&#x1ee1;.&#xa;&#xa;L&#x1b0;u &#xfd; r&#x1eb1;ng c&#xe1;c b&#x1b0;&#x1edb;c n&#xe0;y ch&#x1ec9; l&#xe0; h&#x1b0;&#x1edb;ng d&#x1eab;n chung v&#xe0; c&#xf3; th&#x1ec3; thay &#x111;&#x1ed5;i t&#xf9;y theo phi&#xea;n b&#x1ea3;n c&#x1ee5; th&#x1ec3; c&#x1ee7;a ph&#x1ea7;n     m&#x1ec1;m Eudsys m&#xe0; b&#x1ea1;n &#x111;ang s&#x1eed; d&#x1ee5;ng."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="H&#x1af;&#x1eda;NG D&#x1eaa;N S&#x1eec; D&#x1ee4;NG PH&#x1ea6;N M&#x1ec0;M EDUSYS"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
